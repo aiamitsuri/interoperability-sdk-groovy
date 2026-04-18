@@ -1,16 +1,18 @@
+# BHILANI Interoperability by kantini, chanchali
+
 Run SDK
 
-Command 1: Compile the Java bridge
+    Command 1: Compile the Java bridge
 
-    javac --enable-preview --release 26 src/bhilani/interoperability/jvm/JVMSDKit.java
+        javac --enable-preview --release 26 src/bhilani/interoperability/jvm/JVMSDKit.java
   
-Command 2: Set the JVM flags
+    Command 2: Set the JVM flags
 
-    set JAVA_OPTS=--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED
+        set JAVA_OPTS=--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED
 
-Command 3: Run the Groovy script using the compiled Java class
+    Command 3: Run the Groovy script using the compiled Java class
 
-    groovy -cp src src/bhilani/interoperability/jvm/RunSDK.groovy
+        groovy -cp src src/bhilani/interoperability/jvm/RunSDK.groovy
 
 
 Basic Usage
@@ -130,3 +132,5 @@ Second time
 
 Third time
 <img width="1046" height="445" alt="groovy3" src="https://github.com/user-attachments/assets/0e049758-a8fa-4423-936a-384fcbcc9cb9" />
+
+**@AIAmitSuri, Co-creator/Co-founder (🙏 Mata Shabri 🙏)**
