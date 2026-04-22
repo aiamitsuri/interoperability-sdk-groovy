@@ -23,7 +23,14 @@ Basic Usage
     
     def sdk = new JVMSDKit()
     
-    def params = [ page: "1" ]
+    def params = [ 
+        language: null,
+        integration: null,
+        crates: null,
+        developmentkit: null,
+        page: "1",
+        ids: null 
+    ]
     
     try {
         println "Groovy SDK"
@@ -35,7 +42,7 @@ Basic Usage
     } catch (e) {
         println "Error: $e.message"
     }
-
+    
 Dynamic Usage
 
       import bhilani.interoperability.jvm.JVMSDKit
